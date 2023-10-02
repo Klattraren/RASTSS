@@ -1,0 +1,397 @@
+/*Footer*/
+#footer-container h5 {
+  text-decoration: underline;
+  color: white;
+}
+
+#footer-container a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: #b7e3ff;
+}
+
+.op30 {
+  opacity: 30%;
+}
+
+.bg-30 {
+  background-color: #0000004d;
+}
+
+.drop_shadow {
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+}
+
+#image_run {
+  display: block;
+  padding-top: 3vh;
+}
+
+#searchFade {
+  background: linear-gradient(#0000004d 0%, #00000080 80%);
+}
+
+/*AUTO GENERADEDD EVENT CARDS*/
+.title-text {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.card-text-content {
+  padding-left: 1rem;
+}
+
+@media (max-width: 992px) {
+  .rounded_style {
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }
+  .wrapper {
+    max-width: 75%;
+  }
+}
+@media (min-width: 993px) {
+  .rounded_style {
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+  }
+  .wrapper {
+    max-width: 50%;
+  }
+}
+
+.card_image_events{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+}
+
+/*AUTO GENERADEDD EVENT CARDS*/
+#underline_text{
+  text-decoration: underline;
+  text-align: center;
+
+}
+/*searchbar*/
+.wrapper {
+  width: 100%;
+  margin: 0rem auto;
+}
+
+.searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#searchQueryInput {
+  width: 100%;
+  height: 3rem;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#search_profile {
+  width: 100%;
+  height: 3rem;
+  background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
+}
+
+#searchQuerySubmit {
+  width: 3.5rem;
+  height: 3rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#search_profile_submit {
+  width: 3.5rem;
+  height: 3rem;
+  margin-left: -3.5rem;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#search_profile_submit:hover {
+  cursor: pointer;
+}
+
+/*Events_atm*/
+.events {
+  background: linear-gradient(#00000080 0%, #00000099 97%, #000000cc 100%);
+  width: 100%;
+  padding-bottom: 4rem;
+}
+
+.eventCards {
+  width: 80%;
+}
+
+/*EVENT WEBSITE*/
+
+#container-img {
+  padding-top: 4rem;
+}
+
+@media (max-width: 574px) {
+}
+@media (min-width: 575px) {
+  #col_devider {
+    border-right: 1px dashed #333;
+  }
+}
+
+#dropdown_track {
+  padding: 0.375rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+/*Profile page*/
+#devider {
+  width: 85%;
+}
+
+#previousEventes {
+  background: linear-gradient(#0000004d 0%, #00000080 80%);
+  padding-bottom: 1rem;
+}
+
+#profile-table {
+  width: 100%;
+  margin-top: 0rem;
+}
+
+#fade-to-footer {
+  background: linear-gradient(#0000004d 0%, #0000004d 10%, #000000cc 100%);
+  height: 3rem;
+}
+
+#event {
+  min-height: 30vh;
+}
+
+#myTableContainerResults tr{
+  color: white;
+  text-align: center;
+}
+/*EVENT WEBSITE*/
+
+.show-more-btn {
+  border: none;
+  background-color: white;
+  text-decoration: underline;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+/*Profile page*/
+#devider {
+  width: 85%;
+}
+
+#button_black {
+  border-radius: 10px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: none;
+}
+
+#previousEventes {
+  background: linear-gradient(#0000004d 0%, #00000080 80%);
+  padding-bottom: 1rem;
+}
+
+#profile-table {
+  width: 100%;
+  margin-top: 0rem;
+}
+
+#fade-to-footer {
+  background: linear-gradient(#0000004d 0%, #0000004d 10%, #000000cc 100%);
+  height: 3rem;
+}
+
+@media (max-width: 574px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .text-shift {
+    text-align: center;
+  }
+
+  #profile_image {
+    width: 100%;
+    height: auto;
+  }
+
+  #profile_box{
+    display: flex;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    width: 25vh;
+    height: 25vh;
+    overflow: hidden;
+    border-radius: 10%;
+  }
+
+}
+
+@media (min-width: 575px) {
+  #profile_image {
+    width: 100%;
+    height: auto;
+  }
+
+  #profile_box{
+    display: flex;
+    float:right;
+    width: 30vh;
+    height: 30vh;
+    overflow: hidden;
+    border-radius: 10%;
+  }
+}
+
+.create_event {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.card_link {
+  text-decoration: none;
+  color: black;
+}
+
+#nice_text {
+  font-family: "Lato ";
+  border: black;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.clear_text {
+  color: white;
+}
+
+.track_form {
+  background-color: #2ac8ab77;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid #5face8;
+  margin-bottom: 5px;
+}
+
+.option_background {
+  padding-top: 5%;
+  border-bottom-left-radius: 2%;
+}
+
+.input_fields {
+  margin-bottom: 5px;
+}
+/*----------------------------------------------------LOGO*/
+@media (max-width: 574px) {
+  #logo {
+    width: 50%;
+  }
+}
+@media (min-width: 575px) {
+  #logo {
+    width: 25%;
+  }
+}
+
+/*----------------------------------------STANDARD PADDING DONT CHANGE---*/
+
+#profile_canvas_container{
+  background: linear-gradient(#ffffff4d 0%, #b7e3ff 97%, #000000cc 100%);
+}
+
+/*PADDINGS*/
+.padding_top{
+  padding-top: 1rem;
+}
+
+.padding_bottom{
+  padding-bottom: 1rem;
+}
+
+.padding_left{
+  padding-left: 1rem;
+}
+
+.padding_right{
+  padding-right: 1rem;
+}
+
+.padding_sides{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.padding_vert{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.padding_all{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.padding_bottom_half{
+  padding-bottom: 0.25rem;
+}
+
+/*Margins*/
+.padding_top{
+  margin-top: 1rem;
+}
+
+.margin_bottom{
+  margin-bottom: 1rem;
+}
+
+.margin_left{
+  margin-left: 1rem;
+}
+
+.margin_right{
+  margin-right: 1rem;
+}
+
+.margin_sides{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.margin_vert{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.margin_all{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
